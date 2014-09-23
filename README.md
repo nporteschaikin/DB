@@ -5,21 +5,23 @@ An Objective-C/Cocoa [SQLite](http://sqlite.org/) wrapper.  Includes an [active 
 
 ### Usage
 
-#### DBDatabase
+##### DBDatabase
 
 `DBDatabase` handles creating, opening, and querying an SQLite database.
 
-#### DBMigrator
+##### DBMigrator
 
 `DBMigrator` handles migrations for an instance of `DBDatabase`.
 
-#### DBMigration
+##### DBMigration
 
 An instance `DBMigration` contains an `upQuery` and `downQuery`
 
-#### DBObject
+##### DBObject
 
 An [active record](http://en.wikipedia.org/wiki/Active_record_pattern) object.
+
+### Tasks
 
 - [x] fetching
 - [x] creating
