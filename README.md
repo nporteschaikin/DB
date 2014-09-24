@@ -21,6 +21,10 @@ An instance `DBMigration` contains an `upQuery` and `downQuery`
 
 An [active record](http://en.wikipedia.org/wiki/Active_record_pattern) object.
 
+##### DBFetchedResultsController
+
+A port of `NSFetchedResultsController` for `DBObject`; like its predecessor, intended to be used with a `UITableView`.
+
 ### Tasks
 
 - [x] fetching
@@ -35,7 +39,10 @@ An [active record](http://en.wikipedia.org/wiki/Active_record_pattern) object.
 - [ ] error handling
 - [ ] tests
 - [x] turn into framework
-- [x] better README
+- [ ] better README
+- [x] `DBFetchedResultsController`
+  - [ ] handle adding/removing objects
+  - [ ] similarly, use the delegate
 
 ### License
 
