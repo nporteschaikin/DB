@@ -21,6 +21,9 @@
 @implementation DBFetchedResultsSection
 @end
 
+
+// ================== DBFetchedResultsController ==================
+
 @interface DBFetchedResultsController () {
     DBObjectFetcher *objectFetcher;
     NSString *sectionNameKeyPath;
@@ -28,8 +31,6 @@
 
 @property (strong, nonatomic, readwrite) NSMutableArray *sections;
 @end
-
-// ================== DBFetchedResultsController ==================
 
 @implementation DBFetchedResultsController
 
