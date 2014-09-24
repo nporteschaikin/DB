@@ -15,7 +15,7 @@ An Objective-C/Cocoa [SQLite](http://sqlite.org/) wrapper.  Includes an [active 
 
 ##### DBMigration
 
-An instance `DBMigration` contains an `upQuery` and `downQuery`
+An instance of `DBMigration` contains an `upQuery` and `downQuery`.
 
 ##### DBObject
 
