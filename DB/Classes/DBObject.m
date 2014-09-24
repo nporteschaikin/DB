@@ -113,6 +113,14 @@
                                     column.key);
 }
 
+- (id)valueForUndefinedKey:(NSString *)key {
+    DBColumn *column = [[self class] columnNamed:key];
+    if (column) {
+        return [self valueForColumn:column];
+    }
+    return nil;
+}
+
 - (void)save {
     if ([self valueForColumn:[[self class] primaryKeyColumn]]) {
         if (!dbObjectUpdater) {

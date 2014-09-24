@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #import "DBDatabase.h"
+#import "DBFetchedResultsController.h"
 #import "DBMigration.h"
 #import "DBMigrator.h"
 #import "DBObject.h"

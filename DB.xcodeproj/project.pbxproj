@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F675EA719D1EFA0003C6F43 /* DBFetchedResultsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F675EA519D1EFA0003C6F43 /* DBFetchedResultsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F675EA819D1EFA0003C6F43 /* DBFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F675EA619D1EFA0003C6F43 /* DBFetchedResultsController.m */; };
 		4F6F2B5C19D1C7130020E024 /* DB.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6F2B5B19D1C7130020E024 /* DB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F6F2B6619D1C7130020E024 /* DBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F2B6519D1C7130020E024 /* DBTests.m */; };
 		4F6F2B8919D1C7960020E024 /* DBColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6F2B7319D1C7960020E024 /* DBColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F675EA519D1EFA0003C6F43 /* DBFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBFetchedResultsController.h; sourceTree = "<group>"; };
+		4F675EA619D1EFA0003C6F43 /* DBFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBFetchedResultsController.m; sourceTree = "<group>"; };
 		4F6F2B5619D1C7130020E024 /* DB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F6F2B5A19D1C7130020E024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F6F2B5B19D1C7130020E024 /* DB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DB.h; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				4F6F2B7619D1C7960020E024 /* DBColumnFetcher.m */,
 				4F6F2B7719D1C7960020E024 /* DBDatabase.h */,
 				4F6F2B7819D1C7960020E024 /* DBDatabase.m */,
+				4F675EA519D1EFA0003C6F43 /* DBFetchedResultsController.h */,
+				4F675EA619D1EFA0003C6F43 /* DBFetchedResultsController.m */,
 				4F6F2B7919D1C7960020E024 /* DBMigration.h */,
 				4F6F2B7A19D1C7960020E024 /* DBMigration.m */,
 				4F6F2B7B19D1C7960020E024 /* DBMigrator.h */,
@@ -185,6 +191,7 @@
 				4F6F2B8D19D1C7960020E024 /* DBDatabase.h in Headers */,
 				4F6F2B8919D1C7960020E024 /* DBColumn.h in Headers */,
 				4F6F2B9319D1C7960020E024 /* DBObject.h in Headers */,
+				4F675EA719D1EFA0003C6F43 /* DBFetchedResultsController.h in Headers */,
 				4F6F2B5C19D1C7130020E024 /* DB.h in Headers */,
 				4F6F2B9F19D1C7E60020E024 /* NSString+DBUppercaseFirst.h in Headers */,
 				4F6F2B8B19D1C7960020E024 /* DBColumnFetcher.h in Headers */,
@@ -295,6 +302,7 @@
 				4F6F2B9419D1C7960020E024 /* DBObject.m in Sources */,
 				4F6F2B9619D1C7960020E024 /* DBObjectAccessorHelper.m in Sources */,
 				4F6F2B9219D1C7960020E024 /* DBMigrator.m in Sources */,
+				4F675EA819D1EFA0003C6F43 /* DBFetchedResultsController.m in Sources */,
 				4F6F2BA019D1C7E60020E024 /* NSString+DBUppercaseFirst.m in Sources */,
 				4F6F2B9019D1C7960020E024 /* DBMigration.m in Sources */,
 				4F6F2B8E19D1C7960020E024 /* DBDatabase.m in Sources */,
